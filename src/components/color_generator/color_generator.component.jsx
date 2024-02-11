@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./color_generator.styles.css";
 
 export default function ColorGenerator() {
   const [typeOfColor, setTypeOfColor] = useState("HEX");
