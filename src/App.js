@@ -1,5 +1,5 @@
 import './App.css';
-import Accordian from './components/accordian';
+import Accordian from './components/accordian/accordian.component';
 import ColorGenerator from './components/color_generator/color_generator.component';
 import ImageSlider from './components/image_slider/image_slider.component';
 import StarRating from './components/star_rating/star_rating.component';
