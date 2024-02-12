@@ -11,7 +11,6 @@ export default function MenuItem({ item, showAll }) {
       [getCurrentLabel]: !showCurrentChildren[getCurrentLabel],
     });
   }
-  console.log(showAll);
 
   return (
     <li>
