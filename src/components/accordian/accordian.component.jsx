@@ -50,7 +50,7 @@ export default function Accordian() {
                 }
                 className="title"
               >
-                <h3>{dataItem.question}</h3>
+                <h3 className="question">{dataItem.question}</h3>
                 <span onClick={() => setSelected(dataItem.id)}>
                   {selected === dataItem.id ? "-" : "+"}
                 </span>
