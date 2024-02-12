@@ -20,7 +20,6 @@ export default function ImageSlider({ url, limit, page }) {
       if (data) {
         setImage(data);
         setIsLoaded(false);
-        console.log(data);
       }
     } catch (error) {
       setErrorMsg(error.message);
