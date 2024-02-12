@@ -6,6 +6,7 @@
   gap: 20px;
   height: 100vh;
   width: 100vw;
+  background-color: bisque;
 }
 .wrapper button {
   padding: 10px 20px;
@@ -28,11 +29,14 @@
 .title {
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
 .content {
   color: white;
   height: auto;
+}
+.question {
+  text-align: left;
 }
