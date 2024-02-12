@@ -2,11 +2,15 @@ import './App.css';
 import Accordian from './components/accordian/accordian.component';
 import ColorGenerator from './components/color_generator/color_generator.component';
 import ImageSlider from './components/image_slider/image_slider.component';
+import LoadMoreButton from './components/load_more_button/load_more_button.component';
 import StarRating from './components/star_rating/star_rating.component';
 
 function App() {
   return (
     <div className="App">
+      {/* Load More */}
+      <LoadMoreButton />
+
       {/* Image Slider Component */}
       <ImageSlider
         url={"https://picsum.photos/v2/list"}

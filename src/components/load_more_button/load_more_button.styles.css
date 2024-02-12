@@ -1,0 +1,32 @@
+.load-more-buttom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.recipe {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: beige;
+}
+.recipe img {
+  width: 200px;
+  height: 200px;
+}
+
+.buttom-container {
+  cursor: pointer;
+  border-radius: 10%;
+}
