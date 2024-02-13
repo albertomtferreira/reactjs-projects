@@ -1,0 +1,10 @@
+.qr_code_container {
+  background-color: beige;
+  padding: 10px;
+}
+.qr_code_input {
+  padding: 10px;
+}
+.qr_code_generator {
+  padding: 10px;
+}
