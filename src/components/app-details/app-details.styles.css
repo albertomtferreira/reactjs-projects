@@ -1,0 +1,19 @@
+.app-titles {
+  background-color: aquamarine;
+}
+.links-packages-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+.app-titles a {
+  color: unset;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}

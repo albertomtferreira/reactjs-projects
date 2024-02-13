@@ -13,7 +13,6 @@ export default function QrCodeComponent() {
   }
   return (
     <div className="qr_code_container">
-      <h1>QR CODE GENERATOR</h1>
       <div className="qr_code_input">
         {/* INPUT */}
         <input
