@@ -9,11 +9,18 @@ import StarRating from './components/star_rating/star_rating.component';
 import menus from './components/tree_view/data';
 import TreeView from './components/tree_view/tree_view.component';
 import dummyData from './components/description-banner/dummy-data';
+import LightDarkMode from './components/light_dark_mode/light_dark_mode.component';
 
 function App() {
   return (
     <div className="App">
       {/* <DummyData dummyData={dummyData} /> */}
+
+      {/* Light and Dark Mode / Theme Switch */}
+      <DescriptionBanner option="light_dark_mode" />
+      <LightDarkMode />
+
+
       {/* QR Code Generator Component */}
       <DescriptionBanner option="qrcode" />
       <QrCodeComponent />
