@@ -74,9 +74,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.light-dark-mode-selector label {
-  color: var(--text-primary);
-  font-size: 20px;
-  margin: 0px;
-}
