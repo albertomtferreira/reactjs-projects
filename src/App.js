@@ -10,11 +10,16 @@ import menus from './components/tree_view/data';
 import TreeView from './components/tree_view/tree_view.component';
 import dummyData from './components/description-banner/dummy-data';
 import LightDarkMode from './components/light_dark_mode/light_dark_mode.component';
+import ScrollIndicator from './components/scroll_indicator/scroll_indicator.component';
 
 function App() {
   return (
     <div className="App">
       {/* <DummyData dummyData={dummyData} /> */}
+
+      {/* Scroll Indicator Component */}
+      <DescriptionBanner option="scroll_indicator" />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=50"} />
 
       {/* Light and Dark Mode / Theme Switch */}
       <DescriptionBanner option="light_dark_mode" />
